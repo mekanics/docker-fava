@@ -32,6 +32,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/swissmanu/fava:latest
+          tags: ghcr.io/mekanics/fava:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
