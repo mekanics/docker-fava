@@ -1,0 +1,4 @@
+beancount-reds-plugins==0.3.0
+beancount-periodic==0.1.2 
+fava-dashboards @ git+https://github.com/andreasgerstmayr/fava-dashboards.git@cbe3ef1052cb113dcac50fa699bdcbe53b669f55
+fava-investor @ git+https://github.com/redstreet/fava_investor@70898232816a650620872f41f4b514ec11e1508b
