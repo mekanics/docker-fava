@@ -35,3 +35,4 @@ jobs:
           tags: ghcr.io/mekanics/fava:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
+        
