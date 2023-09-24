@@ -39,7 +39,7 @@ securityContext:
   # runAsUser: 1000
 
 service:
-  type: LoadBalancer
+  type: ClusterIP
   port: 5000
 
 ingress:
@@ -58,6 +58,12 @@ ingress:
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
+
+volume:
+  hostPath: '/path/on/host'
+
+env:
+  beancountFile: '/bean/main.bean'
 
 resources:
   {}
