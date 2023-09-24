@@ -1,9 +1,20 @@
-# 🐳 `ghcr.io/mekanics/fava`
+## Usage
 
-Docker image to run [Fava](https://beancount.github.io/fava/) for [Beancount](https://beancount.github.io/).
+[Helm](https://helm.sh) must be installed to use the charts. Please refer to
+Helm's [documentation](https://helm.sh/docs) to get started.
 
-## Example Usage
+Once Helm has been set up correctly, add the repo as follows:
 
-```
-docker run -v $PWD:/bean -e BEANCOUNT_FILE=/bean/main.bean -p 5000:5000 ghcr.io/mekanics/fava
-```
+helm repo add fava https://mekanics.github.io/fava-docker/charts
+
+If you had already added this repo earlier, run `helm repo update` to retrieve
+the latest versions of the packages. You can then run `helm search repo
+<alias>` to see the charts.
+
+To install the <chart-name> chart:
+
+    helm install my-<chart-name> <alias>/<chart-name>
+
+To uninstall the chart:
+
+    helm delete my-<chart-name>
