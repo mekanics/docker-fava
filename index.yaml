@@ -3,6 +3,16 @@ entries:
   fava:
   - apiVersion: v2
     appVersion: latest
+    created: "2023-10-15T13:16:52.156149356Z"
+    description: A Helm chart for fava / beancount
+    digest: 48e864e591dc68d6c70800b837648b7c4202938f9af8e93f9b2586952d7956af
+    name: fava
+    type: application
+    urls:
+    - https://github.com/mekanics/docker-fava/releases/download/fava-0.1.3/fava-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: latest
     created: "2023-09-24T18:08:19.587848641Z"
     description: A Helm chart for fava / beancount
     digest: 1663824726d7d864a930251353e23d3fd0d7961de69274568f0f488dace4f707
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/mekanics/docker-fava/releases/download/fava-0.1.0/fava-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-24T18:08:19.587867341Z"
+generated: "2023-10-15T13:16:52.156162856Z"
