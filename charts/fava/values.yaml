@@ -59,8 +59,7 @@ ingress:
   #    hosts:
   #      - fava-example.local
 
-volume:
-  hostPath: '/path/on/host'
+volume: {}
 
 env:
   beancountFile: '/bean/main.bean'
