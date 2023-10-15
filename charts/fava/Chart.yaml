@@ -3,4 +3,4 @@ name: fava
 description: A Helm chart for fava / beancount
 type: application
 version: 0.1.9
-appVersion: 'v0.0.2'
+appVersion: '0.0.2'
