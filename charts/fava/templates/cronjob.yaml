@@ -23,13 +23,13 @@ spec:
                   - -c
                   - >
                       bean-price -d $(date -u +%Y-%m-%dT%H:%M:%S) --no-cache --clobber {{ .Values.env.beancountFile }} >> /bean/prices/auto.bean
-          volumeMounts:
-            - name: bean-volume
-              mountPath: /bean
+              volumeMounts:
+                - name: bean-volume
+                  mountPath: /bean
 
-        volumes:
-          - name: bean-volume
-            {{- toYaml .Values.volume | nindent 12 }}
+          volumes:
+            - name: bean-volume
+              {{- toYaml .Values.volume | nindent 12 }}
 
         restartPolicy: OnFailure
 {{- end -}}
