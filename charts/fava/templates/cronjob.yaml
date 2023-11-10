@@ -31,5 +31,5 @@ spec:
             - name: bean-volume
               {{- toYaml .Values.volume | nindent 14 }}
 
-        restartPolicy: OnFailure
+          restartPolicy: OnFailure
 {{- end }}
