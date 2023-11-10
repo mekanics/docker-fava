@@ -29,7 +29,7 @@ spec:
 
           volumes:
             - name: bean-volume
-              {{- toYaml .Values.volume | nindent 12 }}
+              {{- toYaml .Values.volume | nindent 14 }}
 
         restartPolicy: OnFailure
-{{- end -}}
+{{- end }}
