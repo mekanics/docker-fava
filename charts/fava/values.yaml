@@ -64,6 +64,10 @@ volume: {}
 env:
   beancountFile: '/bean/main.bean'
 
+weeklyPriceUpdate:
+  enabled: false
+  schedule: '42 23 * * FRI'
+
 resources:
   {}
   # We usually recommend not to specify default resources and to leave this as a conscious
