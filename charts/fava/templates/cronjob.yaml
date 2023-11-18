@@ -32,4 +32,6 @@ spec:
               {{- toYaml .Values.volume | nindent 14 }}
 
           restartPolicy: OnFailure
+      
+      activeDeadlineSeconds: 300
 {{- end }}
