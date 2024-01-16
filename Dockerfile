@@ -1,7 +1,5 @@
 FROM python:3.11.4-bookworm
 
-RUN pip3 install fava
-
 ADD requirements.txt .
 RUN pip3 install -U -r requirements.txt
 
