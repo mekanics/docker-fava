@@ -1,6 +1,0 @@
-apiVersion: v2
-name: fava
-description: A Helm chart for fava / beancount
-type: application
-version: 0.2.5
-appVersion: '0.1.0'
