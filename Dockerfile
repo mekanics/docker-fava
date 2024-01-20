@@ -1,9 +1,20 @@
-FROM python:3.12.1-bookworm
+FROM python:3.12.1-slim
 
-ADD requirements.txt .
-RUN pip3 install -U -r requirements.txt
+WORKDIR /app
 
-ENV BEANCOUNT_FILE ""
-ENV FAVA_HOST "0.0.0.0"
+# hadolint ignore=DL3008
+RUN apt-get update && apt-get install --no-install-recommends -y git && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT [ "fava" ]
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENV BEANCOUNT_FILE=""
+ENV FAVA_HOST="0.0.0.0"
+
+RUN useradd -m favauser
+USER favauser
+
+CMD ["fava"]
