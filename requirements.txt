@@ -1,4 +1,4 @@
-fava==1.27.1
+fava==1.27.3
 
 beancount-reds-plugins==0.3.0
 beancount-periodic==0.1.2 
