@@ -3,7 +3,7 @@ FROM python:3.12.4-slim
 WORKDIR /app
 
 # hadolint ignore=DL3008
-RUN apt-get update && apt-get install --no-install-recommends -y git inotify-tools && \
+RUN apt-get update && apt-get install --no-install-recommends -y git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
