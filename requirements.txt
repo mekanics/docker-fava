@@ -3,7 +3,7 @@ fava==1.28
 beancount-reds-plugins==0.3.0
 beancount-periodic==0.1.2 
 fava-dashboards @ git+https://github.com/andreasgerstmayr/fava-dashboards.git
-fava-investor==0.7.0
+fava-investor==1.0.1
 
 loguru==0.7.2
 ibflex==0.15
