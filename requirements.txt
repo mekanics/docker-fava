@@ -5,5 +5,5 @@ beancount-periodic==0.1.2
 fava-dashboards @ git+https://github.com/andreasgerstmayr/fava-dashboards.git
 fava-investor==0.7.0
 
-loguru==0.7.2
+loguru==0.7.3
 ibflex==0.15
