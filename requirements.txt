@@ -1,5 +1,7 @@
 fava==1.30.1
 
+beanprice @ git+https://github.com/beancount/beanprice.git@v1.2.2
+
 beancount-reds-plugins==0.3.0
 beancount-periodic==0.2 
 fava-dashboards @ git+https://github.com/andreasgerstmayr/fava-dashboards.git
