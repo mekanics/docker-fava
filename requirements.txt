@@ -1,6 +1,6 @@
 fava==1.30.2
 
-beanprice @ git+https://github.com/mekanics/beanprice.git
+beanprice @ git+https://github.com/beancount/beanprice.git
 
 beancount-reds-plugins==0.3.0
 beancount-periodic==0.2 
