@@ -9,3 +9,5 @@ fava-investor==1.0.1
 
 loguru==0.7.3
 ibflex==0.15
+
+beancount-tools-collection @ git+https://github.com/mekanics/beancount-tools-collection.git
