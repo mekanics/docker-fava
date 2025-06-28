@@ -1,4 +1,4 @@
-fava==1.30.2
+fava==1.30.3
 
 beanprice @ git+https://github.com/beancount/beanprice.git
 
