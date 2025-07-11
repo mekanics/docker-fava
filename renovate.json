@@ -1,5 +1,9 @@
 {
-  "extends": [
-    "config:base"
-  ]
+	"extends": ["config:base"],
+	"packageRules": [
+		{
+			"matchPackageNames": ["python"],
+			"allowedVersions": "<3.13.0"
+		}
+	]
 }
