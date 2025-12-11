@@ -4,7 +4,7 @@ beanprice @ git+https://github.com/beancount/beanprice.git
 
 beancount-reds-plugins==0.3.0
 beancount-periodic==0.2 
-fava-dashboards @ git+https://github.com/andreasgerstmayr/fava-dashboards.git
+fava-dashboards==1.2.0
 fava-investor==1.0.1
 
 loguru==0.7.3
