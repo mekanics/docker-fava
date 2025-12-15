@@ -3,7 +3,7 @@ fava==1.30.4
 beanprice @ git+https://github.com/beancount/beanprice.git
 
 beancount-reds-plugins==0.3.0
-beancount-periodic==0.2 
+beancount-periodic==0.2.1 
 fava-dashboards==1.1.0
 fava-investor==1.0.1
 
