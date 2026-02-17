@@ -5,5 +5,8 @@
 			"matchPackageNames": ["python"],
 			"allowedVersions": "<3.13.0"
 		}
-	]
+	],
+	"uv": {
+		"enabled": true
+	}
 }
