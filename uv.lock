@@ -86,7 +86,7 @@ wheels = [
 [[package]]
 name = "beancount-tools-collection"
 version = "1.0.0"
-source = { git = "https://github.com/mekanics/beancount-tools-collection.git#2adbf0eca8b6f49061525e39187f6ca91cbf5411" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
     { name = "beangulp" },
@@ -97,6 +97,10 @@ dependencies = [
     { name = "python-dateutil" },
     { name = "pyyaml" },
     { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/59/fb/5d50a61083acdade9edc5599a255909240b19a5a5fc5ef5fc1d37c394150/beancount_tools_collection-1.0.0.tar.gz", hash = "sha256:cca0265b3f8f81161996efcd80cd1e61c11234f979b0db56488aa9ba8d9effa1", size = 37216, upload-time = "2026-05-25T12:38:55.325Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/11/1e/325fdb6797b1fff23243d6e6dd552b345a1c1bc85a94ada5533faf84203a/beancount_tools_collection-1.0.0-py3-none-any.whl", hash = "sha256:214a320c071ec8ea13eb11e005235b10951fbbde5fc2d26f70a22a4837b2ee33", size = 39775, upload-time = "2026-05-25T12:38:54.07Z" },
 ]
 
 [[package]]
@@ -378,7 +382,7 @@ wheels = [
 [[package]]
 name = "docker-fava"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "beancount-periodic" },
     { name = "beancount-reds-plugins" },
@@ -395,7 +399,7 @@ dependencies = [
 requires-dist = [
     { name = "beancount-periodic", specifier = "==0.2" },
     { name = "beancount-reds-plugins", specifier = "==0.3.0" },
-    { name = "beancount-tools-collection", git = "https://github.com/mekanics/beancount-tools-collection.git" },
+    { name = "beancount-tools-collection", specifier = "==1.0.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.4" },
     { name = "fava-dashboards", specifier = "==1.1.0" },
