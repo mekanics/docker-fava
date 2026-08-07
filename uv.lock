@@ -85,7 +85,7 @@ wheels = [
 
 [[package]]
 name = "beancount-tools-collection"
-version = "1.0.0"
+version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
@@ -98,9 +98,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/fb/5d50a61083acdade9edc5599a255909240b19a5a5fc5ef5fc1d37c394150/beancount_tools_collection-1.0.0.tar.gz", hash = "sha256:cca0265b3f8f81161996efcd80cd1e61c11234f979b0db56488aa9ba8d9effa1", size = 37216, upload-time = "2026-05-25T12:38:55.325Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/7c/184f1abd03e85bf0687a099378ce0b4f06ec1b94eb42dc7e2354a5828312/beancount_tools_collection-1.1.0.tar.gz", hash = "sha256:5948b1147d8934ab8940ecdb2fa975fbd4eb32273bf40483d4b7c2d00cb40f60", size = 43461, upload-time = "2026-08-07T03:34:04.332Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/1e/325fdb6797b1fff23243d6e6dd552b345a1c1bc85a94ada5533faf84203a/beancount_tools_collection-1.0.0-py3-none-any.whl", hash = "sha256:214a320c071ec8ea13eb11e005235b10951fbbde5fc2d26f70a22a4837b2ee33", size = 39775, upload-time = "2026-05-25T12:38:54.07Z" },
+    { url = "https://files.pythonhosted.org/packages/49/0d/f1a9dbb996a0fb6549b43077a448f60aa63fe85efde13eca698efaf3d804/beancount_tools_collection-1.1.0-py3-none-any.whl", hash = "sha256:dfcb232b9a1fb18cf6a703c14b6e840675f5dac038924bda5034053f56842d09", size = 42180, upload-time = "2026-08-07T03:34:03.009Z" },
 ]
 
 [[package]]
@@ -399,7 +399,7 @@ dependencies = [
 requires-dist = [
     { name = "beancount-periodic", specifier = "==0.2" },
     { name = "beancount-reds-plugins", specifier = "==0.3.0" },
-    { name = "beancount-tools-collection", specifier = "==1.0.0" },
+    { name = "beancount-tools-collection", specifier = ">=1.1.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.4" },
     { name = "fava-dashboards", specifier = "==1.1.0" },
