@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -58,6 +58,18 @@ wheels = [
 ]
 
 [[package]]
+name = "beancount-hooks"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beancount" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/bc/a9/0a2fe1a7560ccdce7b6d645ae8ab47445df3f88ce07729f34114b67b7ca7/beancount_hooks-0.7.0.tar.gz", hash = "sha256:78fe47c7428def7837c9b1f9305d549db999fcb3c228df06fd3e64fdb21bb5e2", size = 21892, upload-time = "2026-08-17T18:28:22.786Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/36/f3aa7819ae49f06e9dc923e4da53a1cdcd2eb8dedd611ef4bcb951b2a245/beancount_hooks-0.7.0-py3-none-any.whl", hash = "sha256:bab9cb85446a7cf77784b91fa69be4f164f61e877239afed8d161096da6df880", size = 26031, upload-time = "2026-08-17T18:28:21.414Z" },
+]
+
+[[package]]
 name = "beancount-periodic"
 version = "0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -85,7 +97,7 @@ wheels = [
 
 [[package]]
 name = "beancount-tools-collection"
-version = "1.1.0"
+version = "1.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
@@ -98,9 +110,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7a/7c/184f1abd03e85bf0687a099378ce0b4f06ec1b94eb42dc7e2354a5828312/beancount_tools_collection-1.1.0.tar.gz", hash = "sha256:5948b1147d8934ab8940ecdb2fa975fbd4eb32273bf40483d4b7c2d00cb40f60", size = 43461, upload-time = "2026-08-07T03:34:04.332Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/6a/18/6905bde4da424599555cf70356488bfaf6638040ad3241f3d919ba5ee3ca/beancount_tools_collection-1.4.0.tar.gz", hash = "sha256:09a5a2404b7f8875417b4ad69c6e0b147db3306bb52f7beea841951982838f73", size = 41905, upload-time = "2026-08-17T18:29:35.236Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/49/0d/f1a9dbb996a0fb6549b43077a448f60aa63fe85efde13eca698efaf3d804/beancount_tools_collection-1.1.0-py3-none-any.whl", hash = "sha256:dfcb232b9a1fb18cf6a703c14b6e840675f5dac038924bda5034053f56842d09", size = 42180, upload-time = "2026-08-07T03:34:03.009Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/a5/9ae041683e1f9ec8ee8747e6c4e99fc7330983700d24c03aee8c18f97b4b/beancount_tools_collection-1.4.0-py3-none-any.whl", hash = "sha256:4b22a65551a700cd6bc7a1a75d4ce3ceb212cb47d3a07ed18bb90f8da3cce2d5", size = 50588, upload-time = "2026-08-17T18:29:34.026Z" },
 ]
 
 [[package]]
@@ -384,6 +396,7 @@ name = "docker-fava"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "beancount-hooks" },
     { name = "beancount-periodic" },
     { name = "beancount-reds-plugins" },
     { name = "beancount-tools-collection" },
@@ -397,9 +410,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "beancount-hooks", specifier = ">=0.7.0" },
     { name = "beancount-periodic", specifier = "==0.2" },
     { name = "beancount-reds-plugins", specifier = "==0.3.0" },
-    { name = "beancount-tools-collection", specifier = ">=1.1.0" },
+    { name = "beancount-tools-collection", specifier = ">=1.4.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.4" },
     { name = "fava-dashboards", specifier = "==1.1.0" },
