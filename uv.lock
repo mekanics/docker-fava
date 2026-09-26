@@ -71,16 +71,16 @@ wheels = [
 
 [[package]]
 name = "beancount-periodic"
-version = "0.2"
+version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
     { name = "beangulp" },
     { name = "python-dateutil" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b7/1c/584b98050397be1bb603c420051d91472051c3a8eb2111813b7496791e05/beancount_periodic-0.2.tar.gz", hash = "sha256:4ec091b918091afe4cec56a934b4f6f8c5cb2367d034e3fc906b53a530b0ec52", size = 14826, upload-time = "2025-01-09T09:38:42.182Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/20/d8/a11f3fe0b2b5372f411a6a7bfc835dfe07ebe00b8ef6a7458702fd2c0198/beancount_periodic-0.2.1.tar.gz", hash = "sha256:51845132294293f9955476abebcd5a936cda039e8e3852b6234bba5d8be9d56f", size = 15636, upload-time = "2025-08-20T15:53:12.36Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/85/d2/9d2cf1cb558e5b6b761bb0e76451cd2030fa3d4b4e7fbcc276a9d346caa9/beancount_periodic-0.2-py3-none-any.whl", hash = "sha256:ec1dae26aec3ef83814f252cfe1ab54540df58e90a5a3a1d8e8dc96bfcca765a", size = 14738, upload-time = "2025-01-09T09:38:39.908Z" },
+    { url = "https://files.pythonhosted.org/packages/0c/6a/8aac3b354492d4f2977ef6dad4090cc44a0ac9179823e1fd64430c6f8be2/beancount_periodic-0.2.1-py3-none-any.whl", hash = "sha256:c17a2cf798465bf8566f744ec3b34f62b1dfcdc1a3709efe83bf030a99e383d6", size = 15719, upload-time = "2025-08-20T15:53:11.098Z" },
 ]
 
 [[package]]
@@ -411,7 +411,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "beancount-hooks", specifier = ">=0.7.0" },
-    { name = "beancount-periodic", specifier = "==0.2" },
+    { name = "beancount-periodic", specifier = "==0.2.1" },
     { name = "beancount-reds-plugins", specifier = "==0.3.0" },
     { name = "beancount-tools-collection", specifier = ">=1.4.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
@@ -924,14 +924,14 @@ wheels = [
 
 [[package]]
 name = "python-dateutil"
-version = "2.8.2"
+version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "six" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86", size = 357324, upload-time = "2021-07-14T08:19:19.783Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9", size = 247702, upload-time = "2021-07-14T08:19:18.161Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
 ]
 
 [[package]]
