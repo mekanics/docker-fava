@@ -85,14 +85,14 @@ wheels = [
 
 [[package]]
 name = "beancount-reds-plugins"
-version = "0.3.0"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/09/d4/3d873e19e99b8441244d04a0e99eb7609abc627079ff3d044a20b2229daa/beancount_reds_plugins-0.3.0.tar.gz", hash = "sha256:deec76e1d853854fdbff1cf78a39938390ca18554a6cab21a1845ec293e58673", size = 49477, upload-time = "2023-01-24T23:05:50.779Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/67/93/48ef31e6c6ed5f09896947a0b40eaf2ad69d15b9a9687b6a94596aa9a249/beancount_reds_plugins-0.4.0.tar.gz", hash = "sha256:33ed652d9d08c6c1de472900d92a7695f6b5f864c3ad23812acd68e756ed0565", size = 53180, upload-time = "2025-07-14T16:59:41.569Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ae/2b/8d3dd2baddefbb91d6857f0765c75149ff7ee00fbfb8504064f6c0135032/beancount_reds_plugins-0.3.0-py3-none-any.whl", hash = "sha256:4bf7d56a9d8084acb50591283cf1724eaa035c2f2df2ac70a3370b0d068da6ed", size = 54219, upload-time = "2023-01-24T23:05:49.322Z" },
+    { url = "https://files.pythonhosted.org/packages/55/ab/307c9b30229f6e75fcad14008e06291d93452b577ebd50412c1f30c0df49/beancount_reds_plugins-0.4.0-py3-none-any.whl", hash = "sha256:186d4d625dcd094043b489f942d44b8cb603a2d5710083e0ce2ea56c2dd133fa", size = 55169, upload-time = "2025-07-14T16:59:40.73Z" },
 ]
 
 [[package]]
@@ -412,7 +412,7 @@ dependencies = [
 requires-dist = [
     { name = "beancount-hooks", specifier = ">=0.7.0" },
     { name = "beancount-periodic", specifier = "==0.2.1" },
-    { name = "beancount-reds-plugins", specifier = "==0.3.0" },
+    { name = "beancount-reds-plugins", specifier = "==0.4.0" },
     { name = "beancount-tools-collection", specifier = ">=1.4.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.16" },
