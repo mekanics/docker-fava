@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Docker image for Fava beancount web interface"
 requires-python = ">=3.12"
 dependencies = [
-    "fava==1.30.4",
+    "fava==1.30.16",
     "beanprice",
     "beancount-reds-plugins==0.3.0",
     "beancount-periodic==0.2",
