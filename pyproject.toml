@@ -8,7 +8,7 @@ dependencies = [
     "beanprice",
     "beancount-reds-plugins==0.3.0",
     "beancount-periodic==0.2.1",
-    "fava-dashboards==1.1.0",
+    "fava-dashboards==1.2.3",
     "fava-investor==1.0.1",
     "loguru==0.7.3",
     "ibflex==0.15",
