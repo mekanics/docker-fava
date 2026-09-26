@@ -416,7 +416,7 @@ requires-dist = [
     { name = "beancount-tools-collection", specifier = ">=1.4.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.16" },
-    { name = "fava-dashboards", specifier = "==1.2.3" },
+    { name = "fava-dashboards", specifier = "==2.0.2" },
     { name = "fava-investor", specifier = "==1.0.1" },
     { name = "ibflex", specifier = "==0.15" },
     { name = "loguru", specifier = "==0.7.3" },
@@ -449,16 +449,17 @@ wheels = [
 
 [[package]]
 name = "fava-dashboards"
-version = "1.2.3"
+version = "2.0.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beanquery" },
     { name = "fava" },
+    { name = "flask" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/10/74/453f549167c8ff0128f3379e6a007be04fd3d8df8ba4ee2f33a133895259/fava_dashboards-1.2.3.tar.gz", hash = "sha256:bd3a578cac945d399cb9c1133ee2b24020d1741aa98fea41e8e5331de8a8024e", size = 3208633, upload-time = "2026-03-08T22:29:08.579Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/93/b3d6b246355a3212db687f7412c34a3ac8d0e40daeb5be01de7b6acfeeb2/fava_dashboards-2.0.2.tar.gz", hash = "sha256:01aa4ed537280017605edf2a7c094f36ceabc2cdcf794ba8a7e110a3cd5d4aa6", size = 5399420, upload-time = "2026-08-15T11:55:07.448Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4d/eb/54da32e6d48656faf1d6aeeedf2185bf4269305e3ed4789d3dd73b60b2d9/fava_dashboards-1.2.3-py3-none-any.whl", hash = "sha256:9ca2fb1341e09255b6ad441caa5967255bd0a503d25b4e1a4c6351777c971d4d", size = 483833, upload-time = "2026-03-08T22:29:07.221Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/61/79750c332ed0091977c4d7e3be3b7a0a8f5d3f73f8b09b19fd7ce95cf19b/fava_dashboards-2.0.2-py3-none-any.whl", hash = "sha256:b0b29b581cbe993998ab200f7cb9980b74a1010f545506600f59426b3697e80c", size = 1577954, upload-time = "2026-08-15T11:55:05.785Z" },
 ]
 
 [[package]]
