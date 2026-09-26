@@ -1,12 +1,15 @@
 {
-	"extends": ["config:base"],
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:recommended"],
+	"lockFileMaintenance": {
+		"enabled": true
+	},
 	"packageRules": [
 		{
+			"description": "Stay on Python 3.12; 3.13 breaks Cheroot (cherrypy/cheroot#597)",
+			"matchDatasources": ["docker"],
 			"matchPackageNames": ["python"],
 			"allowedVersions": "<3.13.0"
 		}
-	],
-	"uv": {
-		"enabled": true
-	}
+	]
 }
