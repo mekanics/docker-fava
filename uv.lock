@@ -1,5 +1,5 @@
 version = 1
-revision = 5
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -97,7 +97,7 @@ wheels = [
 
 [[package]]
 name = "beancount-tools-collection"
-version = "1.4.0"
+version = "1.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beancount" },
@@ -110,9 +110,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/18/6905bde4da424599555cf70356488bfaf6638040ad3241f3d919ba5ee3ca/beancount_tools_collection-1.4.0.tar.gz", hash = "sha256:09a5a2404b7f8875417b4ad69c6e0b147db3306bb52f7beea841951982838f73", size = 41905, upload-time = "2026-08-17T18:29:35.236Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/99/93/8ffd8f572e43203b5731cf8aa09a7168ea700f01e26860bd48597cc848de/beancount_tools_collection-1.7.0.tar.gz", hash = "sha256:a9f46532cff3484024c6328222ec9ff5671fd3d383e61d82bd0b1e39670f0f4b", size = 52395, upload-time = "2026-10-18T06:58:48.101Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1e/a5/9ae041683e1f9ec8ee8747e6c4e99fc7330983700d24c03aee8c18f97b4b/beancount_tools_collection-1.4.0-py3-none-any.whl", hash = "sha256:4b22a65551a700cd6bc7a1a75d4ce3ceb212cb47d3a07ed18bb90f8da3cce2d5", size = 50588, upload-time = "2026-08-17T18:29:34.026Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/6b/b21ffe3cdb63783cfa541106db6b414a1c892541545269f4729a6bcafc35/beancount_tools_collection-1.7.0-py3-none-any.whl", hash = "sha256:f2b22619602b6b612f8ea550f76e500ec2216d30fe5e67120e2f84abef9587e6", size = 59585, upload-time = "2026-10-18T06:58:46.609Z" },
 ]
 
 [[package]]
@@ -413,7 +413,7 @@ requires-dist = [
     { name = "beancount-hooks", specifier = ">=0.7.0" },
     { name = "beancount-periodic", specifier = "==0.2.1" },
     { name = "beancount-reds-plugins", specifier = "==0.3.0" },
-    { name = "beancount-tools-collection", specifier = ">=1.4.0" },
+    { name = "beancount-tools-collection", specifier = ">=1.7.0" },
     { name = "beanprice", git = "https://github.com/beancount/beanprice.git" },
     { name = "fava", specifier = "==1.30.16" },
     { name = "fava-dashboards", specifier = "==1.2.3" },

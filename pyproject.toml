@@ -13,7 +13,7 @@ dependencies = [
     "loguru==0.7.3",
     "ibflex==1.1",
     "beancount-hooks>=0.7.0",
-    "beancount-tools-collection>=1.4.0",
+    "beancount-tools-collection>=1.7.0",
 ]
 
 [tool.uv]
