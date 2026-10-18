@@ -6,7 +6,7 @@
 	},
 	"packageRules": [
 		{
-			"description": "Stay on Python 3.12; 3.13 breaks Cheroot (cherrypy/cheroot#597)",
+			"description": "Stay below Python 3.13; Cheroot still raises EBADF from IOBase.__del__ on 3.13+ (cherrypy/cheroot#734)",
 			"matchDatasources": ["docker"],
 			"matchPackageNames": ["python"],
 			"allowedVersions": "<3.13.0"

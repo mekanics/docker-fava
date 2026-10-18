@@ -1,6 +1,7 @@
-# Using Python 3.12 instead of 3.13 due to compatibility issues with Cheroot WSGI server in Python 3.13
-# Python 3.13 causes "OSError: [Errno 9] Bad file descriptor" errors in socket handling during garbage collection
-# See issue: https://github.com/cherrypy/cheroot/issues/597
+# Stay on Python 3.12. On 3.13 and 3.14, Cheroot raises
+# OSError: [Errno 9] Bad file descriptor from IOBase.__del__ when a client
+# drops a connection. No Cheroot release fixes this.
+# See https://github.com/cherrypy/cheroot/issues/734
 FROM python:3.12-slim
 
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
