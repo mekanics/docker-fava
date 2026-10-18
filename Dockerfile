@@ -26,9 +26,9 @@ ENV BEANCOUNT_FILE=""
 ENV FAVA_HOST="0.0.0.0"
 ENV PATH="/app/.venv/bin:$PATH"
 
-RUN useradd -m favauser && chown -R favauser:favauser /app
-USER favauser
+RUN useradd -m -u 1000 favauser && chown -R 1000:1000 /app
+USER 1000
 
-COPY --chown=favauser:favauser entrypoint.sh .
+COPY --chown=1000:1000 entrypoint.sh .
 
 ENTRYPOINT ["./entrypoint.sh"]
