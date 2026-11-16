@@ -10,7 +10,7 @@ dependencies = [
     "beancount-periodic==0.2.1",
     "fava-dashboards==2.0.2",
     "fava-investor==1.0.1",
-    "loguru==0.7.3",
+    "loguru==0.8.0",
     "ibflex==1.1",
     "beancount-hooks>=0.7.0",
     "beancount-tools-collection>=1.7.0",
